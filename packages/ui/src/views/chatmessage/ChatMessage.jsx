@@ -181,7 +181,7 @@ const ChatMessage = ({ open, chatflowid, isAgentCanvas, isDialog, previews, setP
     const [loading, setLoading] = useState(false)
     const [messages, setMessages] = useState([
         {
-            message: 'Olá! 👋 Sou o Zyon, assistente virtual do Instituto Conceição Moura.\n Posso te ajudar com informações sobre nossos programas e projetos.\n Antes de começarmos, qual é o seu nome, por favor? Assim posso te atender melhor. 😊',
+            message: 'Olá! 👋 Sou o Zyon, assistente virtual do Instituto Conceição Moura.\n Para começarmos, qual é o seu nome, por favor? Assim posso te atender melhor. 😊',
             type: 'apiMessage'
         }
     ])
@@ -1493,7 +1493,7 @@ const ChatMessage = ({ open, chatflowid, isAgentCanvas, isDialog, previews, setP
             setLoading(false)
             setMessages([
                 {
-                    message: 'Olá! 👋 Sou o Zyon, assistente virtual do Instituto Conceição Moura.\n Posso te ajudar com informações sobre nossos programas e projetos.\n Antes de começarmos, qual é o seu nome, por favor? Assim posso te atender melhor. 😊',
+                    message: 'Olá! 👋 Sou o Zyon, assistente virtual do Instituto Conceição Moura.\n Para começarmos, qual é o seu nome, por favor? Assim posso te atender melhor. 😊',
                     type: 'apiMessage'
                 }
             ])
